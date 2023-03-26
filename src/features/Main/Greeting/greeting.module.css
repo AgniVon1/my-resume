@@ -1,0 +1,13 @@
+.greetingBlock{
+    height: 100vh;
+    background-color: #b6497a;
+}
+.text{
+    background-color: white;
+    width: 300px;
+}
+.icon{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}

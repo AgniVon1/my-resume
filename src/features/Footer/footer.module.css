@@ -1,0 +1,30 @@
+.footer{
+    min-height:12vh;
+    background-color: darksalmon;
+}
+.footerContainer{
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.footerContainer h3 {
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+@media (max-width: 700px) {
+    .icon {
+        flex: 0 1 35%;
+    }
+}

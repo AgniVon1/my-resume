@@ -1,0 +1,12 @@
+.header{
+    height: 80px;
+    background-color: #61dafb;
+}
+.headerContainer{
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

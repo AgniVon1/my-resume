@@ -1,0 +1,84 @@
+.contactBlock{
+    align-items: stretch;
+    min-height: 25vh;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+    flex: 0 1 50%;
+}
+.contactInfo div {
+    padding-left: 20px;
+}
+.contactInfo div:last-child{
+    padding-bottom: 10px;
+}
+
+.contactInfoTitle{
+
+}
+.contactInfoText{
+
+}
+.contactInfoPhone{
+
+}
+.contactInfoEmail{
+
+}
+.contactInfoGit{
+
+}
+
+
+.contactForm{
+    background-color: #b6497a;
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactForm div {
+    padding-left: 20px;
+}
+.contactForm div:last-child{
+    padding-bottom: 10px;
+}
+
+.contactFormTitle{
+    text-align: center;
+}
+
+.contactFormInput input{
+    width: 85%;
+    padding: 5px;
+}
+
+.contactFormTextarea textarea{
+    width: 90%;
+    height: 100px;
+    resize: none;
+}
+
+.contactFormSendButton {
+    margin: 0 auto 10px;
+
+    padding: 10px;
+}
+.contactFormSendButton button {
+    padding: 16px;
+    background-color: #1f1f1f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media (max-width: 975px) {
+    .contactForm {
+        flex: 0 1 100%;
+    }
+    .contactInfo{
+        flex: 0 1 100%;
+    }
+}
